@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum web 3</title>
+</head>
+<body>
+    <header style = "background-color: aliceblue, padding 10px;">
+        <h2>Header</h2>
+        <nav>
+            <a href = "index.html">home</a>
+            <a href = "#section1">home</a>
+            <a href = "#section2">home</a>
+            <a href = "#">home</a>
+        </nav>
+    </header>
+    <section id="section1" style="background-color: beige; height :100vh">
+        <article>
+            Hahahahaha
+        </article>
+        <aside>
+            <detail>
+                <summary>
+                    Jurusan
+                </summary>
+                <ul>
+                    <li>Ilmu komputer</li>
+                    <li>Teknik nformatika</li>
+                    <li>Sistem informasi</li>
+                </ul>
+            </detail>
+        </aside>
+    </section>
+    <section id="section2" style=" background-color: rgb(161, 247, 255); height: 100vh">
+        <form action="#" method="get"target="_self">
+            <fieldset>
+            <legend>Form</legend>
+            <label for="username">nama: </label>
+            <input type="text" id ="username" name="username">
+            <br><br>
+
+            <label for="npm">NPM : </label>
+            <input type="number" id="npm" name="npm">
+            <br><br>
+
+            <label for="email">email : </label>
+            <input type="email" id="email"name= "email">
+            <br><br>
+
+            <label for="pasword">Password: </label>
+            <input type="password" name="passwoerd" id ="password">
+            <br><br>
+
+            <label for="jk">Jenis kelamin</label><br>
+            <input type="radio" namr=" jk"id="pr">
+            <label for="lk">laki laki </label> <br>
+
+            <input type="radio" name="jk" id="lk">
+            <label for="pr">perempuan</label>
+            <br> <br>
+            
+            <label for="hobi"></label><br>
+            <input type="checkbox" id="hobi1" name = "hobi[]" value="Membaca">
+            <label for="hobi1">Membaca</label><br><br>
+            <input type="checkbox" id="hobi2" name = "hobi[]" value="Coding">
+            <label for="hobi1">Coding</label><br><br>
+            <input type="checkbox" id="hobi3" name = "hobi[]" value="Menulis">
+            <label for="hobi1">Menulis</label><br><br>
+            </fieldset>
+
+            <label for="upload">Upload file</label>
+            <input type="file" name="upload" id="ipload"><br><br>
+
+            <label for="tanggal">Tanggal</label>
+            <input type="date" name="tanggal" id="tanggal"><br><br>
+            <label for="waktu">waktu</label>
+            <input type="time" name="waktu" id="waktu"><br><br>
+
+            <input type="hidden"name="role" value="Mahasiswa">
+            <input type="hidden" name="Jurusan" id = "Ilmu komputer">
+            
+            <label for="search">Cari data</label>
+            <input type="search" id="search" name=""search>
+
+
+            <button>submit</button>
+        </form>
+        
+
+    </section>
+
+    <footer>Ilmu komputer</footer>
+</body>
+</html>
